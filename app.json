@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/settings/settings"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d7e1ff",
+    "navigationBarTitleText": "小蚁生活",
+    "backgroundColor":"#eeeeee",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#444",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "assets/tabs/home.png",
+      "selectedIconPath": "assets/tabs/home-active.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "消息",
+      "iconPath": "assets/tabs/message.png",
+      "selectedIconPath": "assets/tabs/message-active.png"
+    },
+    {
+      "pagePath": "pages/settings/settings",
+      "text": "我的",
+      "iconPath": "assets/tabs/profile.png",
+      "selectedIconPath": "assets/tabs/profile-active.png"
+    }
+    ]
+  }
+}
